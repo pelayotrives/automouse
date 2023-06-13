@@ -11,7 +11,7 @@ Install the required modules using pip with your terminal.
     pip install time
     ```
 
-Run the script by executing:
+Run the script by executing 
     ```
     python3 automouse.py
     ```
