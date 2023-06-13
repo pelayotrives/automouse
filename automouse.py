@@ -10,7 +10,7 @@ while True:
         pyautogui.moveTo(x + 10, y + 50)
         pyautogui.moveTo(x, y)
 
-        # Wait 30 seconds before repeating the movement
-        time.sleep(3)
+        # Wait 5 seconds before repeating the movement
+        time.sleep(5)
     except KeyboardInterrupt:
         break
