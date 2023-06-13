@@ -11,9 +11,8 @@ while True:
         random_x = random.randint(x - 10, x + 10)
         random_y = random.randint(y - 10, y + 10)
 
-        # Move the mouse slightly and then return to the original position.
-        pyautogui.moveTo(x + 10, y + 50)
-        pyautogui.moveTo(x, y)
+        # Move the mouse to the new random position.
+        pyautogui.moveTo(random_x, random_y)
 
         # Wait 5 seconds before repeating the movement.
         time.sleep(5)
